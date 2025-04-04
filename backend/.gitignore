@@ -1,0 +1,38 @@
+node_modules/
+
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# SQLite database (for local dev)
+*.sqlite3
+*.db
+
+# Migrations
+migrations/
+
+# Logs
+*.log
+logs/
+
+# Cache & compiled files
+*.swp
+*.swo
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Deployment files (optional)
+instance/
+config.pyc
